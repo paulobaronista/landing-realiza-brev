@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+body { font-family: "Arial", Helvetica, sans-serif; font-size: 10px;}
+
+#page-full {
+ background: url(../imagens/bullet.png) repeat;
+ width: 100%;
+ float: left;
+ position: relative;
+}
+#container-form {
+ width: 960px;
+ height: 1847px;
+ position: relative;
+ float: left;
+ left: 50%;
+ margin-left: -480px;
+ background: url(../imagens/base.png) no-repeat;
+}
+#box_form {
+ width: 300px;
+ height: 395px;
+ background-color: rgba(255,255,255,0.6);
+ float: right;
+ margin-top: 20px;
+ margin-right: 50px;
+ padding-top: 5px;
+}
+form input {
+ width: 263px;
+ height: 30px;
+ border: solid 1px #b8b8b8;
+ padding: 0 2px 0 4px;
+ margin: 0 0 10px 12px;
+ font-family: "Arial", Helvetica, sans-serif;
+ color: #000;
+ font-size: 15px;
+}
+form textarea {
+ width: 263px;
+ height: 90px;
+ border: solid 1px #b8b8b8;
+ padding: 5px;
+ font-family: "Arial", Helvetica, sans-serif;
+ margin: 0 0 10px 12px;
+ color: #000;
+ font-family: "Arial", Helvetica, sans-serif;
+ font-size: 15px;
+}
+form label {
+ font-size: 16px;
+ font-family: "Arial", Helvetica, sans-serif;
+ text-transform: uppercase;
+ padding: 5px 0 2px 0;
+ float: left;
+ margin-left: 12px;
+ color: #000;
+}
+.statusNome {
+ margin-top: 5px;
+}
+small {
+ float: left;
+ padding: 0 0 0 15px;
+ margin: -5px 0 0 0;
+ width: 80%;
+ color: #727376; 
+}
+.enviar {
+ width: 90%;
+ background-color: #598257;
+ font-family: "Arial", Helvetica, sans-serif;
+ padding: 7px 0 7px 0;
+ margin: 10px 5% 0 5%;
+ text-align: center;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ font-size: 19px;
+ text-decoration: none;
+ color: #FFF;
+ float: left;
+ border: solid 1px #b8b8b8;
+}
+.enviar:hover {
+ background-color: #3b563a;
+}
+.txt-resposta p {
+ text-align: center;
+ font-size: 25px;
+ color: #222;
+ line-height: 30px;
+ text-transform: uppercase;
+ padding-top: 95px;
+}
+footer {
+ position: absolute;
+ bottom: 0;
+ font-size: 8px;
+ float: left;
+ text-align: center;
+ background-color: #FFF;
+ padding-bottom: 10px;
+ padding-top: 10px;
+}
+
+::-webkit-input-placeholder { color: inherit;} /*Atributo para o Chrome colocar cor dentro do input*/
+
+/* Hack ie10 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { 
+
+   
+}
